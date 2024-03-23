@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#background{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://wallpapercave.com/wp/wp10724302.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#main{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 3px solid #00a8ff;
+    border-radius: 10px;
+}
+
+h1{
+    text-transform: uppercase;
+    color: #00a8ff;
+
+}
+#inputText{
+    padding: 16px;
+    padding-right: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: #bce4f8;
+    
+}
+#inputText:focus{
+    outline: 2px groove #2cb9ff;
+}
+#button{
+    padding: 12px 120px;
+    font-size: large;
+    border: none;
+    background-color: #00a8ff;
+    color: white;
+    border-radius: 5px;
+
+}
+::placeholder{
+    font-size: large;
+    color: #447791;
+    
+}
+#showGrade{
+    height: 400px;
+    width: 500px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    border : 3px solid #00a8ff;
+    background-color: #d4f1ff;
+    border-radius: 10px;
+    
+}
+#gradeValue{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 800px;
+    z-index: -1;
+}
+
+#showGrade #cross{
+    font-size: x-large;
+    border: none;
+    background: none;
+    position : relative;
+    left : 170px;
+    bottom : 70px;
+}
+#cross:hover{
+    color: aqua;
+}
