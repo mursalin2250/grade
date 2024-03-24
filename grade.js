@@ -10,10 +10,10 @@ function output(){
         document.getElementById('value').style.color = "green";
     }
     else if (Result > 100){
-        grade = "The input cannot be more than 100";
+        alert("The input cannot be more than 100");
     }
     else if (Result < 0){
-        grade = "The input cannot be less than 0";
+        alert("The input cannot be less than 0");
     }
     else if (Result <= 79 && Result >= 70){
         grade = "A";
